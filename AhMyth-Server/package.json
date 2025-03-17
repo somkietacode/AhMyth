@@ -23,6 +23,7 @@
         "build:linux64": "npx electron-builder --linux deb --x64",
         "build:win": "npm run build:win32 && npm run build:win64",
         "build:win32": "npx electron-builder --win --ia32",
-        "build:win64": "npx electron-builder --win --x64"
+        "build:win64": "npx electron-builder --win --x64",
+        "web": "node ./app/server.js"
     }
 }
